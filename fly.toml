@@ -16,7 +16,7 @@ swap_size_mb = 1024
   cmd = ["mongod", "--ipv6"]
 
 [build]
-  image = 'mongo:4.4'
+  image = 'mongo:5.0'
 
 [env]
   MONGO_INITDB_DATABASE = 'modmail'
